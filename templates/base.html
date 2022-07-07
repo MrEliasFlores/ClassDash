@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ClassDash</title>
+{%load static%}
+<link rel="stylesheet" type="text/css" href= "{% static 'WebSite/css/landingTemplate.css' %}" >
+</head>
+<body>
+<!-- Main Container -->
+<div class="container"> 
+  <!-- Header -->
+  <header class="header">
+    <h1 class="logo">Class Dash&nbsp;<img class = "eethumb" src = "{% static "WebSite/images/UTSAEELogo.png" %}" alt = "UTSALogo"></h1>
+  </header>
+  {% block content %}
+ 
+
+  {% endblock%}
+<!-- Footer Section -->
+  <footer id="contact">
+    <p class="hero_header">Contact Us</p>
+    <div class="button" </div><a href="mailto:sas248@my.utsa.edu">EMAIL US</a>
+  </footer>
+  <!-- Copyrights Section -->
+  <div class="copyright"><strong>&nbsp;Class Dash - EE/CPE 4813 Senior Design II&nbsp;&nbsp;</strong></div>
+</div>
+<!-- Main Container Ends -->
+</body>
+</html>

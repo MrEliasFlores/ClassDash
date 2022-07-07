@@ -1,0 +1,11 @@
+  {% extends 'base.html' %}
+  {% load static%} 
+  {% block content%}
+  <div class="gallery">
+    <div class="thumbnail"> <a href="/orderFood"><img src="{% static "WebSite/images/PlaceOrder.png" %}" alt="place" class="button"/></a>
+      <h4>PLACE AN ORDER</h4>
+      <p>Locker(s) Available</p> 
+      <p2>{{one}} {{two}} {{three}} {{four}} {{none}}</p2>
+    </div>
+  </div>
+  {% endblock %}

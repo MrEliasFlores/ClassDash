@@ -1,0 +1,9 @@
+  {% extends 'base.html' %}
+  {% load static%} 
+  {% block content%}
+  <div class="gallery">
+    <div class="thumbnail"> <a href="/orderChoice"><img src="{% static "WebSite/images/error.png" %}" alt="place" class="button"/></a>
+      <h4>Selected Locker is Full. Click to Return</h4>
+    </div>
+  </div>
+  {% endblock %}

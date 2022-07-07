@@ -1,0 +1,18 @@
+  {% extends 'base.html' %}
+  {% load static%} 
+  {% block content%}
+  <div class="gallery">
+    <div class="thumbnail"> <a href="/orderChoice"><img src="{% static "WebSite/images/McDonalds.png" %}" alt="place" class="button"/></a>
+      <h4>McDonalds</h4>
+    </div>
+    <div class="thumbnail"> <a href="/orderChoice"><img src="{% static "WebSite/images/Wendys.png" %}" alt="pickup" class="button"/></a>
+      <h4>Wendy's</h4>
+    </div>
+    <div class="thumbnail"> <a href="/orderChoice"><img src="{% static "WebSite/images/BurgerKing.png" %}" alt="pickup" class="button"/></a>
+      <h4>Burger King</h4>
+    </div>    
+    <div class="thumbnail"> <a href="/orderChoice"><img src="{% static "WebSite/images/Chick-fil-A_Logo.svg" %}" alt="pickup" class="button"/></a>
+      <h4>Chick-Fil-A</h4>
+    </div>
+  </div>
+  {% endblock %}

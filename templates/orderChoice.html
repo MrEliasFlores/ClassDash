@@ -1,0 +1,12 @@
+  {% extends 'base.html' %}
+  {% load static%} 
+  {% block content%}
+  <div class="gallery">
+    <div class="thumbnail"> <a href="/Meal1"><img src="{% static "WebSite/images/order1.png" %}" alt="Meal1" class="button"/></a>
+      <h4>Meal 1: $9.99</h4>
+    </div>
+    <div class="thumbnail"> <a href="/Meal2"><img src="{% static "WebSite/images/order2.png" %}" alt="Meal2" class="button"/></a>
+      <h4>Meal 2: $12.99</h4>
+    </div>
+  </div>
+  {% endblock %}
